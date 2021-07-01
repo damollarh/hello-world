@@ -9,6 +9,7 @@ let sumEl=document.getElementById("sum-el")
 let cardEl=document.getElementById("card-el")
 function start() {
     if (sum <= 20) {
+        sumEl.textContent = "Sum is:" + sum
         message="Do you want to draw a new card? "
        
     } else if (sum === 21) {
